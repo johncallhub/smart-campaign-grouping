@@ -7,12 +7,9 @@
 
 > **Intelligent AI-powered solution that automatically detects and groups related campaigns AFTER they're created, working with your team's natural workflow rather than against it.**
 
-## 🎯 **Real-World Problem Solved**
-
-*"Hey, the team and I were talking about the best way to manage call and text campaigns so that we can track metrics together with comms on the same topic sent through other platforms. Is there a way to tag or group campaigns in Salesforce so that we'd have a way to associate different campaigns like 'CallHub Calls June Rally', 'CallHub P2P texts June Rally', 'Pardot Emails June Rally', and 'Facebook Ads June Rally'?"* - **Campaign Manager**
 
 ### **The Challenge:**
-Multi-channel organizations need to track campaigns across platforms (CallHub, Pardot, Facebook, SMS) but face these problems:
+Multi-department communication (CallHub, Pardot, Facebook) needs to be tracked in Salesforce, but faces these problems:
 
 - **Different Teams, Different Timing:** Various departments create campaigns at different times without coordination
 - **No Shared Naming Standards:** "It's a lot of different people in different departments creating these campaigns... not necessarily talking to each other"
