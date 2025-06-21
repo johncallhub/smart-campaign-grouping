@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="🤖 Smart Campaign Grouping" icon-name="custom:custom63">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <p class="slds-text-body_regular slds-m-bottom_medium">
+                Automatically detect and suggest campaign groupings based on naming patterns and timing.
+            </p>
+            
+            <lightning-button 
+                variant="brand" 
+                label="Analyze Campaigns" 
+                title="Run Smart Campaign Analysis"
+                icon-name="utility:search"
+                onclick={handleAnalyzeCampaigns}
+                disabled={isLoading}>
+            </lightning-button>
+            
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Analyzing campaigns..." size="small" class="slds-m-left_small"></lightning-spinner>
+            </template>
+        </div>
+        
+        <div slot="footer" class="slds-text-body_small slds-text-color_weak slds-p-horizontal_medium slds-p-bottom_small">
+            💡 Results will appear in your browser console and debug logs
+        </div>
+    </lightning-card>
+</template>

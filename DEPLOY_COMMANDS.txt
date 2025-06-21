@@ -1,0 +1,19 @@
+# Copy these exact commands to deploy Smart Campaign Grouping
+
+# 1. Install CLI (if not done)
+npm install -g @salesforce/cli
+
+# 2. Connect to your org
+sf org login web --alias my-org
+
+# 3. Deploy (after downloading the package)
+cd SmartCampaignGrouping
+sf project deploy start --target-org my-org
+
+# 4. Run tests
+sf apex run test --test-level RunSpecifiedTests --tests CampaignIntelligenceTest,GroupingSuggestionEngineTest,GroupingSuggestionControllerTest --target-org my-org
+
+# 5. Schedule monitoring
+sf apex run --target-org my-org --file schedule.apex
+
+That's it! Total time: ~10 minutes

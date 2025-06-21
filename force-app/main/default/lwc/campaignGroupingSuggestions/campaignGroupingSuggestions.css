@@ -1,0 +1,162 @@
+.suggestion-card {
+    border-left: 4px solid #1589ee;
+    transition: all 0.2s ease;
+}
+
+.suggestion-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.suggestion-icon {
+    color: #1589ee;
+}
+
+.confidence-high {
+    color: #04844b;
+    font-weight: bold;
+}
+
+.confidence-medium {
+    color: #fe9339;
+    font-weight: bold;
+}
+
+.confidence-low {
+    color: #ea001e;
+    font-weight: bold;
+}
+
+.campaigns-preview {
+    background: #f3f3f3;
+    border-radius: 4px;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.campaign-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0.5rem 0;
+}
+
+.campaign-item:last-child {
+    border-bottom: none;
+}
+
+.channel-icon {
+    opacity: 0.7;
+}
+
+.confidence-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.confidence-badge.high {
+    background: #04844b;
+    color: white;
+}
+
+.confidence-badge.medium {
+    background: #fe9339;
+    color: white;
+}
+
+.confidence-badge.low {
+    background: #ea001e;
+    color: white;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 1px solid #e5e5e5;
+    background: #fafaf9;
+}
+
+.edit-modal {
+    max-width: 600px;
+}
+
+.campaign-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    background: white;
+}
+
+.campaign-checkbox:hover {
+    background: #f8f9fa;
+}
+
+.channel-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.125rem 0.5rem;
+    background: #f3f3f3;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: #444;
+}
+
+/* Animation for new suggestions */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.suggestion-card {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Loading state styling */
+.loading-overlay {
+    position: relative;
+}
+
+.loading-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 100;
+}
+
+/* Success state for approved suggestions */
+.suggestion-approved {
+    border-left-color: #04844b;
+    background: linear-gradient(to right, rgba(4, 132, 75, 0.1), transparent);
+}
+
+/* Pulse animation for high confidence suggestions */
+.confidence-high {
+    animation: confidencePulse 2s infinite;
+}
+
+@keyframes confidencePulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}

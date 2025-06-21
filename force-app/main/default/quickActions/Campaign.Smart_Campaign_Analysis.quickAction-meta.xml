@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionSubtype>ScreenAction</actionSubtype>
+    <type>Flow</type>
+    <flowDefinition>Smart_Campaign_Grouping_Flow</flowDefinition>
+    <label>🤖 Smart Campaign Analysis</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+</QuickAction>
