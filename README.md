@@ -9,7 +9,7 @@
 
 ## 🎯 **Problem Solved**
 
-Diffrent teams create campaigns across multiple channels (Email, CallHub, Facebook) with inconsistent naming conventions. Finding and grouping related campaigns manually is time-consuming, error-prone, and doesn't scale with campaign volume.
+Multiple teams create campaigns across multiple channels (Email, CallHub, Facebook) with inconsistent naming conventions. Finding and grouping related campaigns manually is time-consuming, error-prone, and doesn't scale with campaign volume.
 
 **Before Smart Campaign Grouping:**
 - ❌ 15-30 minutes per campaign set to manually identify relationships
