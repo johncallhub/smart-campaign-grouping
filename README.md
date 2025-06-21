@@ -284,16 +284,11 @@ Enable detailed logging by setting debug level to FINEST:
 System.debug(LoggingLevel.FINEST, 'Debug message here');
 ```
 
-## 📞 **Support**
-
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/smart-campaign-grouping/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/smart-campaign-grouping/discussions)
-- **Email:** [your-email@domain.com](mailto:your-email@domain.com)
 
 ## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Open for feedback and improvements
+Open for feedback and improvements.
 
 *Transform your campaign management workflow with AI-powered automation that works with your team's natural patterns, not against them.*
