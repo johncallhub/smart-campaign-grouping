@@ -22,7 +22,7 @@ Multi-department communication (CallHub, Pardot, Facebook) needs to be tracked i
 - ❌ **Contact-Level Tags Wrong:** "Is there a way to do it that doesn't permanently associate the tag with the contact?"
 - ❌ **Can't Use Single Campaign:** "We can't use the same SF campaign for all 3 because the criteria for inclusion will be different"
 
-### **Our Solution:**
+### **This Solution:**
 - ✅ **Works With Your Chaos:** No behavior change required from teams
 - ✅ **Retroactive Grouping:** Links campaigns after they're created
 - ✅ **Preserves Separate Lists:** Maintains different opt-out rules per channel
@@ -211,7 +211,7 @@ The organization creates campaigns like:
 
 ## 🧪 **Demo**
 
-Want to see it in action? Run our comprehensive demo:
+Want to see it in action? Run the comprehensive demo:
 
 1. **Open Developer Console → Execute Anonymous**
 2. **Copy and paste:** `scripts/CUSTOMER_DEMO.apex`
